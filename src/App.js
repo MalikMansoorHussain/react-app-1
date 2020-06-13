@@ -10,7 +10,7 @@ function App() {
   return (
     <div className={`box ${isMorning ? 'morning' :'night'}` }>
     <Morning daychanging={isMorning} />
-    <h1>counter {count}</h1>
+    <h1>counter increament {count}</h1>
     
     <button onClick={()=>setCount(count+1)}>update count</button>
 
