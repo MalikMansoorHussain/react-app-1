@@ -1,5 +1,4 @@
 import React from 'react';
-import Child1 from "./child1";
 import {useState} from "react";
 import Morning from "./morning";
 import './App.css';
